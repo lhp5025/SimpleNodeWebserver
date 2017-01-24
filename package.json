@@ -1,0 +1,10 @@
+{
+	"name": "static-webserver",
+	"version": "1.0.0",
+	"description": "A simple static webserver",
+	"license" : { "type": "MIT", "url": "https://github.com/lhp5025/SimpleNodeWebserver/blob/master/LICENSE" },
+	"repository": { "type": "git", "url": "https://github.com/lhp5025/SimpleNodeWebserver" },
+	"main": "staticNodeWebserver.js",
+	"scripts": { "start": "node staticNodeWebserver.js" },
+	"dependencies": { "express": "~4.14.0" }
+}
