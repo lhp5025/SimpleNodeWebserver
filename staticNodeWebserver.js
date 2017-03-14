@@ -30,5 +30,5 @@ app.get('/*', function (req, res) {  // Loads anything in the servers public dir
 // Server Listen
 var port = process.env.PORT || 8080
 app.listen(port , function() {
-    console.log('Server running at http:localhost:' + port  );
+    console.log('Server running at http:\\localhost:' + port  );
 });
